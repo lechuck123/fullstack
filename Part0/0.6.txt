@@ -1,0 +1,7 @@
+note over browser:
+Javascript code adds the new content
+directly to the list on the users browser
+end note
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+server-->browser: 201 Created
+
